@@ -4,17 +4,17 @@ $outletLight = $_POST['outletId'];
 $outletStatus = $_POST['outletStatus'];
 
 if ($outletLight == "1" && $outletStatus == "on") {
-    $rfCodes = array(349491);
+    $rfCodes = array(16106836);
 } else if ($outletLight == "1" && $outletStatus == "off") {
-    $rfCodes = array(349500);
+    $rfCodes = array(16106832);
 } else if ($outletLight == "2" && $outletStatus == "on") {
-    $rfCodes = array(349635);
+    $rfCodes = array(16110676);
 } else if ($outletLight == "2" && $outletStatus == "off") {
-    $rfCodes = array(349644);
+    $rfCodes = array(16110672);
 } else if ($outletLight == "3" && $outletStatus == "on") {
-    $rfCodes = array(349955);
+    $rfCodes = array(16110916);
 } else if ($outletLight == "3" && $outletStatus == "off") {
-    $rfCodes = array(349964);
+    $rfCodes = array(16110912);
 } else if ($outletLight == "4" && $outletStatus == "on") {
     $rfCodes = array(351491);
 } else if ($outletLight == "4" && $outletStatus == "off") {
